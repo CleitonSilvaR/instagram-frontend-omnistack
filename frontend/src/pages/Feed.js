@@ -14,7 +14,6 @@ class Feed extends Component {
         feed: [],
     };
 
-    
     async componentDidMount() {
         this.registerToSocket();
 
